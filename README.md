@@ -1,11 +1,10 @@
-## About me page.
-##### live link: <a href=https://soriful-chalehin.github.io>Soriful-Chalehin.github.io</a>
+## Sobre mim
+##### link: <a href=https://altencirsilvajr.github.io/portifolio>Meu Portifólio</a>
 
-<img src="assets/img/website-preview.jpg">
+<img src="assets/img/portifolio.png">
 
 ## Contact me:
 <ul>
-    <li><a href='https://facebook.com/Chalehin'> Follow me on Faceobook.</li>
-    <li><a href='https://developersoriful.com'> Website.</li>
-    <li><a href='mailto:developersoriful@gmail.com'> E-mail </li>
+    <li><a href='https://www.linkedin.com/in/altencir-junior-60410b1a7/'> Meu Linkedin Faceobook.</li>
+    <li><a href='mailto:altencirsilvajr@gmail.com'> E-mail </li>
 </ul>
