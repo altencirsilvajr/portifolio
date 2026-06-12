@@ -3,7 +3,6 @@ import { FiArrowRight } from 'react-icons/fi';
 export default function Hero() {
   return (
     <section id="home" className="hero section">
-      <div className="blob blob-1"></div>
       <div className="container">
         <div className="hero-content animate-fade-in">
           <span className="hero-subtitle">Olá, eu sou</span>

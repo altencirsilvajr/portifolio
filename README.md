@@ -1,16 +1,53 @@
-# React + Vite
+# Portfólio de Altencir Junior
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Deploy static content to Pages](https://github.com/altencirsilvajr/portifolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/altencirsilvajr/portifolio/actions/workflows/deploy.yml)
 
-Currently, two official plugins are available:
+> Um portfólio moderno, responsivo e de alta performance, desenvolvido com React e Vite para destacar experiências, habilidades e projetos com foco em desenvolvimento Full Stack .NET e Integrações com IA.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias e Arquitetura
 
-## React Compiler
+Este portfólio foi arquitetado com as melhores práticas de Clean Code, priorizando um carregamento rápido e uma navegação ultra-fluida.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React.js (via Vite)
+- **Estilização**: CSS Puro Moderno (Variáveis CSS, CSS Grid/Flexbox)
+- **Ícones**: React Icons (Feather)
+- **Design System**: Tema Escuro Premium ("Dark Mode"), foco em contrastes de acessibilidade, tipografia moderna (Inter e Outfit) e eliminação de gargalos de renderização na GPU (GPU-friendly styling).
+- **Hospedagem & CI/CD**: GitHub Pages, com deploy contínuo (CD) através de GitHub Actions.
 
-## Expanding the ESLint configuration
+## ⚡ Otimizações de Performance Aplicadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Como parte do aprimoramento contínuo:
+- **Redução de Paint/Layout Shifts**: Efeitos de "backdrop-filter" complexos e "blur" massivos que exerciam forte uso de hardware durante o scroll foram substituídos por cores de background otimizadas, garantindo que o portfólio rode sempre a **60 fps** até mesmo em dispositivos de baixo desempenho.
+- **Build Otimizado**: Configurações de `base path` e separação de chunks ativas pelo Vite.
+
+## 💻 Rodando Localmente
+
+1. **Clone este repositório:**
+   ```bash
+   git clone https://github.com/altencirsilvajr/portifolio.git
+   ```
+
+2. **Acesse o diretório:**
+   ```bash
+   cd portifolio
+   ```
+
+3. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+4. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+   > Acesse `http://localhost:5173` no seu navegador.
+
+## 📫 Como Entrar em Contato
+
+- **Email**: altencirsilvajr@gmail.com
+- **LinkedIn**: [altencir-junior](https://www.linkedin.com/in/altencir-junior)
+- **GitHub**: [altencirsilvajr](https://github.com/altencirsilvajr)
+
+---
+*© Altencir Junior. Construído com foco em qualidade, código limpo e modernidade.*

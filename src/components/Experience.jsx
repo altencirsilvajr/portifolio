@@ -48,7 +48,6 @@ export default function Experience() {
 
   return (
     <section id="experience" className="section relative">
-      <div className="blob blob-2"></div>
       <div className="container">
         <h2>Experiência</h2>
         
